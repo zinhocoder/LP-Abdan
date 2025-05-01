@@ -39,8 +39,11 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-amber-500 hover:bg-amber-600 text-black font-medium px-6 sm:px-8 py-6 sm:py-7 text-lg sm:text-xl"
+                asChild
               >
-                Garantir Meu Ebook Agora <ArrowRight className="ml-2 h-5 w-5" />
+                <a href="https://pay.cakto.com.br/fs9x4sd_367838">
+                  Garantir Meu Ebook Agora <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button
                 variant="outline"
@@ -304,8 +307,11 @@ export default function Home() {
                 <Button
                   size="lg"
                   className="bg-amber-500 hover:bg-amber-600 text-black font-medium px-8 sm:px-12 py-6 sm:py-8 text-lg sm:text-xl animate-pulse w-full sm:w-auto"
+                  asChild
                 >
-                  Quero Garantir Minha Vaga Agora <ArrowRight className="ml-2 h-5 w-5" />
+                  <a href="https://pay.cakto.com.br/fs9x4sd_367838">
+                    Quero Garantir Minha Vaga Agora <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
                 </Button>
 
                 <p className="mt-4 text-base text-slate-400 flex items-center">
@@ -376,12 +382,23 @@ export default function Home() {
           <Button
             size="lg"
             className="bg-amber-500 hover:bg-amber-600 text-black font-medium px-6 sm:px-8 py-6 sm:py-7 text-lg sm:text-xl animate-pulse w-full sm:w-auto"
+            asChild
           >
-            Garantir Meu Ebook Agora <ArrowRight className="ml-2 h-5 w-5" />
+            <a href="https://pay.cakto.com.br/fs9x4sd_367838">
+              Garantir Meu Ebook Agora <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
-          <p className="text-slate-400 text-sm mt-12">
-            &copy; {new Date().getFullYear()} Renda em 60 Minutos. Todos os direitos reservados.
-          </p>
+          <div className="mt-12">
+            <p className="text-slate-400 text-sm">
+              &copy; {new Date().getFullYear()} Renda em 60 Minutos. Todos os direitos reservados.
+            </p>
+            <p className="text-slate-400 text-sm mt-2">
+              Desenvolvido por{" "}
+              <a href="https://www.devpro.fun" className="text-amber-500 hover:text-amber-400">
+                DevPro
+              </a>
+            </p>
+          </div>
         </div>
       </section>
     </main>

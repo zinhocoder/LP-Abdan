@@ -97,7 +97,10 @@ export function StorySection() {
         </div>
 
         <div className="flex justify-center mt-8 sm:mt-10">
-          <a href="#preco" className="flex items-center text-amber-500 hover:text-amber-400 text-lg font-medium">
+          <a
+            href="https://pay.cakto.com.br/fs9x4sd_367838"
+            className="flex items-center text-amber-500 hover:text-amber-400 text-lg font-medium"
+          >
             Quero conhecer este método agora <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>
